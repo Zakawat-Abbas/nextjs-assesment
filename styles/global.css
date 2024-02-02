@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+li:first-child {
+    border-top: 1px solid gray;
+}
+
+li {
+    padding: 15px;
+    border-bottom: 1px solid gray;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a h2 {
+    text-transform: capitalize;
+}
+
+div h1 {
+    text-transform: capitalize;
+}
+
+
+.posts a:hover {
+    color: gray;
+}
+
+
+button {
+    padding: 8px 12px;
+    background-color: grey;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: rgb(94, 90, 90);
+}
+
+
+.search-box {
+    width: 350px;
+    position: relative;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 16px;
+    padding: 15px 45px 15px 15px;
+    background-color: #eaeaeb;
+    color: #6c6c6c;
+    border-radius: 26px;
+    border: none;
+    transition: all .4s;
+}
+
+.search-input:focus {
+    border: none;
+    outline: none;
+    box-shadow: 0 1px 12px #b8c6db;
+}
+
+.bookmark-link {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.page-navigation {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 15px;
+}
+
+.page-navigation-buttons {
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 12px;
+}
